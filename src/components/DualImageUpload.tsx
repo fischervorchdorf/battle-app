@@ -57,7 +57,7 @@ export const DualImageUpload: React.FC<DualImageUploadProps> = ({ onImagesSelect
                     <img src={preview} alt={`Kämpfer ${slot}`} className="w-full h-64 object-cover rounded-lg" />
                     <button
                         onClick={() => removeImage(slot)}
-                        className="absolute top-2 right-2 p-2 bg-red-500 rounded-full hover:bg-red-600"
+                        className="absolute top-2 right-2 p-2 bg-white text-gray-400 hover:text-red-500 rounded-full shadow-lg transition-all hover:scale-110"
                     >
                         <X size={20} />
                     </button>
